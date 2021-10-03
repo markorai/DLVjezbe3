@@ -1,0 +1,185 @@
+*{
+    
+    overflow-x: hidden;
+    font-size: 16px;
+}
+body{
+    background-color: black;
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 166, 0, 0.849);
+    text-align: center;
+    font-size: 3rem;
+}
+h2{
+    font-family: monospace;
+    color: rgb(255, 166, 0);
+    text-align: center;
+    font-size: 2rem;
+}
+img{
+    display: block;
+    margin: auto;
+    width: auto;
+}
+p{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+.italic{
+ 
+    font-style: italic;
+}
+.education{
+    margin-bottom: 5px;
+}
+
+.properties{
+    border: 1px solid rgb(255, 166, 0);
+    width: 50%;
+    margin: auto;
+}
+.list{
+    list-style-type: circle;
+    color: white;
+    justify-content: center;
+}
+
+i{
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+
+}
+#java{
+   
+    background-color: white;
+   
+
+}
+#js{
+    
+    background-color: blue;
+  
+}
+#php{
+    background-color: hsl(300, 100%, 25%);
+}
+tr th{
+    color: white;
+    border:1px solid orange;
+}
+tr td{
+    color: white;
+    border:1px solid orange;
+}
+table{
+    border:1px solid orange;
+    border-collapse: collapse;
+}
+input[type=button]{
+    color: green;
+    margin-bottom: 3px;
+}
+input{
+    margin-top: 15px;
+}
+form{
+    width:50%; 
+    margin:0 auto;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+  background-color: #333;
+  }
+  li{
+      float: left;
+  
+
+  }
+  li a{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px ;
+      text-decoration: none;
+  }
+  li a:hover{
+      background-color: rgb(230, 155, 17);
+  }
+
+  input[type=button]:hover{
+    font-weight: bold;
+  }
+/* RESPONSIVE ZA TELEFON */
+@media screen and (max-width:480px ){
+    .nav-bar{
+        display: none;
+    }
+   
+    h2{
+        font-size: 1.3rem ;
+    }
+  p{
+      text-align: center;
+      color: white;
+      font-size: 0.8rem;
+  }
+ input{
+     width: 90%;
+ }
+ .nav-bar-sm{
+    margin-bottom: 10%;
+}
+
+}
+/* RESPONSIVE ZA DRUGE UREĐAJE */
+@media screen and (min-width:481px) and (max-width:781px){
+    .nav-bar-sm{
+        display: none;
+    }
+    .nav-bar{
+        margin-bottom: 10%;
+    }
+    table{
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+    }
+    input[type=button]{
+        width: 100%;
+    }
+   
+    input{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (min-width:782px){
+    .nav-bar-sm{
+        display: none;
+    }
+    .nav-bar{
+        margin-bottom: 5%;
+    }
+    table{
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+    }
+    input[type=button]{
+        width: 100%;
+    }
+   
+    input{
+        width: 100%;
+        text-align: center;
+    }
+}
